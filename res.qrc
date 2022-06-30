@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/">
+        <file>BestWishes.jpg</file>
+    </qresource>
+</RCC>
