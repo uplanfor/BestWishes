@@ -27,8 +27,8 @@
   </property>
   <property name="styleSheet">
    <string notr="true">QLabel{
-background-image: url(:/BestWishes.jpg);
-background-color: red;
+background-color: white;
+background-image: url(&quot;:/BestWishes.png&quot;);
 border: 1px solid white;
 border-radius: 40px;
 }</string>

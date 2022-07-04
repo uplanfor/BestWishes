@@ -4,7 +4,7 @@
 
 Widget::Widget(QWidget *parent)
     : QWidget(parent)
-    , ui(new Ui::Widget), icon(":/BestWishes.jpg")
+    , ui(new Ui::Widget), icon(":/BestWishes.png")
 {
     qsrand(QTime(0, 0, 0).secsTo(QTime::currentTime()));
     ui->setupUi(this);
@@ -53,7 +53,7 @@ void Widget::contextMenuEvent(QContextMenuEvent *ev)
     });
     connect(act_hide, &QAction::triggered, this, [=]()
     {
-        frame->showMinimized();
+        frame->lower();
     });
     menu.exec(QCursor::pos());
 }
